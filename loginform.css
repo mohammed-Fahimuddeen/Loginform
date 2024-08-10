@@ -1,0 +1,99 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  height: 641px;
+  width: 100%;
+  background-image: url('./nature.jpg');
+.background{
+  height: 430px;
+  width: 430px;
+  backdrop-filter:blur(5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  display: flex;
+  background-color:transparent;
+  border-style: solid;
+  color: snow;
+  border-width: 2px;
+  border-color: rgb(225, 225, 225, 2);
+  border-radius: 18px;
+  h1{
+    font-family: Verdana, Geneva, Tahoma, serif;
+    font-weight: 800;
+    color: snow;
+    text-align: center;
+    font-variant: small-caps;  
+  }
+  ul{
+    margin: 0%;
+    width: 78%;
+    li{
+      list-style: none;
+      display: inline;
+    }
+    a{
+      text-decoration: none;
+      color: snow;
+    }
+    a:hover{
+      color: gray;
+    }
+    #c:hover{
+      cursor: pointer;
+    }
+    #b{
+      margin-right: 90px;
+    }
+  }
+  .a{
+    background-color:transparent;
+    border-width: 1px;
+    border-style: solid;
+    width: 75%;
+    border-color: snow;
+    position: relative;
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 37px;
+    padding: 10px 0px 10px 10px;  
+  }
+  input::placeholder{
+    color: snow;
+  }
+  .a i{
+    position: absolute;
+    right: 10px;
+  }
+  button{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    width: 76%;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 25px;
+    margin-left: 47px;
+    border-color: transparent;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  P{
+    font-family: Arial, Helvetica, serif;  
+  }
+  .a {
+    color: snow;
+  }
+  .z{
+    text-decoration: none;
+    color: snow;
+    font-family: Arial, Helvetica, serif;
+    font-weight: bold;
+  }
+  .z:hover{
+  color: gray;
+  }
+}
+}
