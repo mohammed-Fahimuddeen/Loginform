@@ -5,7 +5,12 @@ body{
   margin: 0%;
   height: 641px;
   width: 100%;
-  background-image: url('./nature.jpg'); 
+  
+  background-image: url('./nature.jpg');  
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  
 .background{
   height: 430px;
   width: 430px;
