@@ -5,8 +5,7 @@ body{
   margin: 0%;
   height: 641px;
   width: 100%;
-  background-image: url('./nature.jpg');
-  background-repeat:repeat;
+  background-image: url('./nature.jpg'); 
 .background{
   height: 430px;
   width: 430px;
