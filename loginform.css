@@ -6,6 +6,7 @@ body{
   height: 641px;
   width: 100%;
   background-image: url('./nature.jpg');
+  background-repeat: no-repeat;
 .background{
   height: 430px;
   width: 430px;
